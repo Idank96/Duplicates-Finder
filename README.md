@@ -8,13 +8,9 @@ This is a Python script that searches for duplicate files within a directory or 
 To run this script, you need Python 3 installed on your machine. The script uses the following built-in Python modules:
 
 pathlib
-
 os
-
 shutil
-
 collections
-
 hashlib
 
 # How to Use
