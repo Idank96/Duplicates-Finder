@@ -8,16 +8,21 @@ This is a Python script that searches for duplicate files within a directory or 
 To run this script, you need Python 3 installed on your machine. The script uses the following built-in Python modules:
 
 pathlib
+
 os
+
 shutil
+
 collections
+
 hashlib
 
 # How to Use
 Set the directory paths to be searched for duplicates in the databank_paths list. You can add multiple paths to the list.
 If you want to delete duplicate files within a specific folder, set the folder_identify variable to the name of the folder where the duplicate files should be deleted from.
 Run the script in the command line by navigating to the script's directory and typing python3 <script_name>.py. You can replace <script_name> with the actual name of the script.
-Functions
+
+#Functions
 find_duplicates(databank_paths)
 This function takes a list of directory paths as input and returns a dictionary where each key is a hash of a duplicate file and the value is a list of paths to the files with that hash. The function searches for audio files with extensions such as .wav, .aif, .aiff, .au, .wavex, .flac, .caf, and .ogg.
 
