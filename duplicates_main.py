@@ -53,7 +53,7 @@ def del_within(duplicates, folder_identify):
                 # os.remove(path)
 
 
-dir1 = r"/Users/idanko/idans_files/cosmos_vs_model_-_datasets/db_test"
+dir1 = r"/Users/idanko/idans_files/datasets/db_test"
 # dir2 = r"C:\Users\idanko\my_scripts\Duplicates\4files_2"
 folder_identify = "4files_1"
 
