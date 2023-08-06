@@ -1,5 +1,4 @@
 # Duplicates-Finder
-Waves Audio script
 
 # Overview
 This is a Python script that searches for duplicate files within a directory or a list of directories. It focuses on finding duplicates of audio files such as .wav, .aif, .aiff, .au, .wavex, .flac, .caf, and .ogg. The script uses the md5 hashing algorithm to compare files, and it can delete duplicate files if needed.
